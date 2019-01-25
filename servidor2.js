@@ -5,7 +5,7 @@ const net =require('net')
 const serve=require('http').Server(aplicacion)
 const socket=require('socket.io')(serve)
 
-var HOST="192.168.43.165"
+var HOST="https://arduino-31.herokuapp.com"
 var PORT=4000
 
 serve.listen(PORT ,function () {
